@@ -1,0 +1,45 @@
+.nav {
+    background-color: #8ff608;
+    justify-content: space-around;
+    height: 85px;
+    display: flex;
+    // padding: 0.2rem calc((100vw - 1000px) / 2);
+
+
+    &__titlebox {
+        margin-left: -200px;
+        width: 148.5px;
+        height: 85px;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+
+    &__title {
+        color: #020000;
+        font-size: 24px;
+    }
+
+    &__pagesbox {
+        display: flex;
+        justify-content: space-around;
+        width: 518px;
+        height: 85px;
+        align-items: center;
+        margin-right: -120px;
+    }
+
+    &__link {
+        color: #808080;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        padding: 0 1rem;
+        height: 100%;
+        cursor: pointer;
+
+        &:active {
+            color: blue;
+        }
+    }
+}
