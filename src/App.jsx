@@ -6,10 +6,9 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from "./components/pages/home";
-import MyBlog from "./components/pages/myBlog";
-import CreateBlog from "./components/pages/createBlog";
-import About from "./components/pages/about";
+import Home from "./components/pages/home/home";
+import MyBlog from "./components/pages/myBlog/myBlog";
+import About from "./components/pages/about/about";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/myBlog" element={<MyBlog />} />
-        <Route path="/createBlog" element={<CreateBlog />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </Router>
