@@ -1,8 +1,15 @@
+.cards-box {
+  display: flex;
+  flex-direction: column;
+  width: 32.7%;
 
+  // display: flex;
+  // justify-content: center;
+}
 .cards {
   width: 980px;
   height: 886px;
-  
+
   &__dailyBox {
     width: 250px;
     height: 34px;

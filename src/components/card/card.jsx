@@ -1,6 +1,6 @@
 const Card = () => {
   return (
-    <>
+    <div className="cards-box">
       <section className="cards">
         <div className="cards__dailyBox">
           <h2>Ежедневная рубрика</h2>
@@ -225,7 +225,7 @@ const Card = () => {
           <img className="card__img" src="/src/assets/img/3.png" />
         </div>
       </section>
-    </>
+    </div>
   );
 };
 
