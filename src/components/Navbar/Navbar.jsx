@@ -1,38 +1,36 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
-
+import { APP_ROUTES } from "/src/utils/constants";
 
 const Navbar = () => {
-    return (
-        <header className="header">
-            <nav className="nav">
-                <div className="nav__box">
-                    <div className="nav__titleBox">
-                        <h1 className="nav__title">Personally</h1>
-                    </div>
-                    <div className="nav__pagesbox">
-                        <div className="nav__linkbox">
-                            <NavLink to="/" className="nav__link">
-                                Главная
-                            </NavLink>
-                            <NavLink to="/myBlog" className="nav__link">
-                                Мой блог
-                            </NavLink>
-                            <NavLink to="/about" className="nav__link">
-                                Обо мне
-                            </NavLink>
-                        </div>
-                        <div className="nav__button">
-                            <div className="nav__buttonBox">
-                                <h2 className="nav__buttonTitle">Подписаться</h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
-    )
-}
-
+  return (
+    <header className="header">
+      <nav className="nav">
+        <div className="nav__box">
+          <div className="nav__titleBox">
+            <p className="nav__title">Personally</p>
+          </div>
+          <div className="nav__pagesbox">
+            <div className="nav__linkbox">
+              <NavLink to={APP_ROUTES.HOME} className="nav__link">
+                Главная
+              </NavLink>
+              <NavLink to={APP_ROUTES.BLOG} className="nav__link">
+                Мой блог
+              </NavLink>
+              <NavLink to={APP_ROUTES.ABOUT} className="nav__link">
+                Обо мне
+              </NavLink>
+            </div>
+            <div className="nav__button">
+              <div className="nav__buttonBox">
+                <p className="nav__buttonTitle">Подписаться</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+  );
+};
 
 export default Navbar;

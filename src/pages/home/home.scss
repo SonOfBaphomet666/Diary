@@ -1,0 +1,34 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 566px;
+
+  &__box {
+    width: 970px;
+    height: 366px;
+    padding-top: 120px;
+    padding-bottom: 80px;
+  }
+
+  &__headingBox {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__headingBox2 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+main {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 250px;
+  width: 100%;
+  height: 100%;
+  background: #f2f4f7;
+  display: flex;
+  flex-direction: column;
+}
