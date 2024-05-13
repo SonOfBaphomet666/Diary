@@ -1,13 +1,11 @@
 .cards-box {
   display: flex;
   flex-direction: column;
-  width: 32.7%;
-
-  // display: flex;
-  // justify-content: center;
+  width: 980px;
 }
 .cards {
-  width: 980px;
+  padding-top: 100px;
+  
   height: 886px;
 
   &__dailyBox {

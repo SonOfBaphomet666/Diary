@@ -34,6 +34,19 @@ h4 {
   margin: 0;
 }
 
+h5 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  text-align: center;
+  background: linear-gradient(133deg, #c41740 0%, #ea9c28 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+}
+
 h6 {
   width: 107px;
   font-weight: 500;
@@ -51,4 +64,15 @@ p {
   text-align: center;
   color: #475467;
   margin: 0;
+}
+
+input {
+  border: 1px solid #d0d5dd;
+  border-radius: 8px;
+  width: 400px;
+  height: 50px;
+}
+
+button {
+ 
 }
