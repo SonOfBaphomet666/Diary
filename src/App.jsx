@@ -1,10 +1,13 @@
-import Navbar from "./components/navbar/navbar";
+
 import "./main.scss";
+
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { APP_ROUTES } from "./utils/constants";
+
+import Navbar from "./components/navbar/navbar";
 import Home from "./pages/home/home";
 import About from "./pages/about/about";
 import MyBlog from "./pages/myBlog/myBlog";
-import { APP_ROUTES } from "./utils/constants";
 
 function App() {
   return (

@@ -22,9 +22,7 @@ const Navbar = () => {
               </NavLink>
             </div>
             <div className="nav__button">
-              <div className="nav__buttonBox">
-                <p className="nav__buttonTitle">Подписаться</p>
-              </div>
+              <p className="nav__buttonTitle">Подписаться</p>
             </div>
           </div>
         </div>

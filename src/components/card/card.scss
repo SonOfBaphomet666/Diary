@@ -5,13 +5,40 @@
 }
 .cards {
   padding-top: 100px;
-  
+
   height: 886px;
 
   &__dailyBox {
-    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     height: 34px;
     margin-bottom: 31px;
+  }
+
+  &__eye {
+    display: flex;
+    justify-content: center;
+    margin-left: 5px;
+  }
+  &__view {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #e4e7ec;
+    border-radius: 8px;
+    padding: 8px 12px;
+    width: 77px;
+    height: 43px;
+    background: $white;
+    font-weight: 600;
+    font-size: 14px;
+    // line-height: 143%;
+    color: $dark-blue;
+  }
+
+  &__viewBox {
+    display: flex;
+    flex-direction: column;
   }
 }
 
@@ -21,7 +48,7 @@
   border-radius: 20px;
   width: 980px;
   height: 260px;
-  background: #fff;
+  background: $white;
   margin-top: 20px;
 
   &__img {

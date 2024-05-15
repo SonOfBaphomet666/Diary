@@ -1,16 +1,15 @@
+@import "./utils/base.scss";
+@import "./utils/text.scss";
+
 @import "./pages/home/home.scss";
 @import "./pages/myBlog/myBlog.scss";
 @import "./pages/about/about.scss";
 
-
-
 @import "./components/Navbar/Navbar.scss";
 @import "./components/card/card.scss";
 
-@import "./utils/text.scss";
-
-html, body {
-    margin: 0;
-    padding: 0;
-  }
-
+html,
+body {
+  margin: 0;
+  padding: 0;
+}

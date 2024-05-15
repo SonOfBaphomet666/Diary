@@ -25,11 +25,11 @@ const Home = () => {
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
                 placeat quidem dolor totam excepturi
               </h4>
-              <div className="box__input">
-                <input placeholder="Email address" />
-                <button>Подписаться</button>
-              </div>
             </div>
+            <div className="box__input">
+                  <input placeholder="    Email address" />
+                  <button className="box__btnInput">Подписаться</button>
+              </div>
           </div>
         </div>
         <div className="info">
