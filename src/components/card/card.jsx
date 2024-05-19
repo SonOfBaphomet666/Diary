@@ -23,13 +23,12 @@ const Card = () => {
               <div className="card__titleBox">
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia excepturi quo iure similique
+                  Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
                   <h4>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
-                    minima culpa officiis illum.
                   </h4>
                 </div>
               </div>
@@ -46,13 +45,12 @@ const Card = () => {
               <div className="card__titleBox">
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia excepturi quo iure similique
+                  Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
                   <h4>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
-                    minima culpa officiis illum.
                   </h4>
                 </div>
               </div>
@@ -69,13 +67,12 @@ const Card = () => {
               <div className="card__titleBox">
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia excepturi quo iure similique
+                  Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
                   <h4>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
-                    minima culpa officiis illum.
                   </h4>
                 </div>
               </div>
@@ -104,13 +101,12 @@ const Card = () => {
               <div className="card__titleBox">
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia excepturi quo iure similique
+                  Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
                   <h4>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
-                    minima culpa officiis illum.
                   </h4>
                 </div>
               </div>
@@ -127,13 +123,12 @@ const Card = () => {
               <div className="card__titleBox">
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia excepturi quo iure similique
+                  Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
                   <h4>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
-                    minima culpa officiis illum.
                   </h4>
                 </div>
               </div>
@@ -150,13 +145,12 @@ const Card = () => {
               <div className="card__titleBox">
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia excepturi quo iure similique
+                  Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
                   <h4>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
-                    minima culpa officiis illum.
                   </h4>
                 </div>
               </div>
@@ -185,13 +179,12 @@ const Card = () => {
               <div className="card__titleBox">
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia excepturi quo iure similique
+                  Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
                   <h4>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
-                    minima culpa officiis illum.
                   </h4>
                 </div>
               </div>
@@ -208,13 +201,12 @@ const Card = () => {
               <div className="card__titleBox">
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia excepturi quo iure similique
+                  Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
                   <h4>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
-                    minima culpa officiis illum.
                   </h4>
                 </div>
               </div>
@@ -231,13 +223,12 @@ const Card = () => {
               <div className="card__titleBox">
                 <h3>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Mollitia excepturi quo iure similique
+                  Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
                   <h4>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
-                    minima culpa officiis illum.
                   </h4>
                 </div>
               </div>

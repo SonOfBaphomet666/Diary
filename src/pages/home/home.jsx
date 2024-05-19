@@ -6,7 +6,7 @@ const Home = () => {
       <section className="hero">
         <div className="hero__box">
           <div className="hero__headingBox">
-            <h1>Тут начинаются мысли!</h1>
+            <h1>Я начинающий разработчик.</h1>
           </div>
           <div className="hero__headingBox2">
             <p>Хочу поделиться с вами своим досугом.</p>
@@ -21,15 +21,15 @@ const Home = () => {
           <div className="box">
             <div className="box__title">
               <h5>Personally Newsletter</h5>
-              <h4>
+              <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
                 placeat quidem dolor totam excepturi
-              </h4>
+              </p>
             </div>
             <div className="box__input">
-                  <input placeholder="    Email address" />
-                  <button className="box__btnInput">Подписаться</button>
-              </div>
+              <input placeholder="    Email address" />
+              <button className="box__btnInput">Подписаться</button>
+            </div>
           </div>
         </div>
         <div className="info">

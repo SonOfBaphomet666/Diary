@@ -1,5 +1,5 @@
 main {
-  padding-top: 80px;
+  // padding-top: 80px;
   padding-bottom: 80px;
   width: 100%;
   height: 100%;
@@ -29,7 +29,6 @@ main {
   &__headingBox2 {
     display: flex;
     justify-content: center;
-
   }
 }
 
@@ -65,21 +64,21 @@ footer {
     &__input {
       display: flex;
       justify-content: center;
-      padding-top: 32px;
+      // padding-top: 22px;
       width: 400px;
       margin-left: 36px;
     }
 
     &__btnInput {
-        border-radius: 0 8px 8px 0;
-        width: 136px;
-        height: 50px;
-        background: $dark-blue;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 143%;
-        text-align: center;
-        color: $white;
+      border-radius: 0 8px 8px 0;
+      width: 136px;
+      height: 50px;
+      background: $dark-blue;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 143%;
+      text-align: center;
+      color: $white;
     }
 
     &__subscribe {
@@ -107,4 +106,132 @@ footer {
       padding-bottom: 40px;
     }
   }
+}
+
+@media screen and (max-width: $tab-port) {
+  main {
+    padding-right: 0;
+    padding-bottom: 60px;
+  }
+
+  h1 {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+    letter-spacing: -0.03em;
+    text-align: center;
+    background: linear-gradient(133deg, #c41740 0%, #ea9c28 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #475467;
+  }
+
+  .hero {
+    width: 100%;
+    height: 418px;
+
+    &__box {
+      width: 520px;
+      height: 198px;
+      padding-bottom: 60px;
+      padding-left: 112px;
+      padding-right: 112px;
+    }
+
+    &__headingBox {
+      padding-top: 20px;
+    }
+
+    &__headingBox2 {
+      padding-top: 16px;
+    }
+  }
+}
+
+@media screen and (max-width: $tab-port-small) {
+  .hero {
+    &__box {
+      padding-top: 90px;
+    }
+  }
+}
+
+@media screen and (max-width: $phone) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  .hero {
+    width: 374px;
+    height: 231px;
+    &__box {
+      padding-top: 60px;
+      padding-bottom: 40px;
+      padding-left: 15.5px;
+      padding-right: 15.5px;
+      width: 343px;
+      height: 131px;
+    }
+
+    &__headingBox {
+      padding: 0;
+    }
+  }
+
+  .box {
+    width: 343px;
+    height: 244px;
+    padding: 0;
+
+    &__title {
+      width: 320px;
+      height: 106px;
+    }
+
+    &__input {
+      width: 343px;
+      height: 112px;
+      padding: 0;
+    }
+
+    &__btnInput {
+      width: 343px;
+      height: 50px;
+    }
+
+    &__subscribe {
+      display: flex;
+      justify-content: center;
+      width: 472px;
+      height: 50px;
+      padding-top: 20px;
+    }
+  }
+
+  .info {
+    padding: 20px 0px;
+    width: 374px;
+    height: 58px;
+
+    &__title {
+      padding: 0;
+    }
+  }
+}
+
+@media screen and (max-width: $phone-small) {
 }

@@ -1,5 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { APP_ROUTES } from "/src/utils/constants";
+// import { RxHamburgerMenu } from "react-icons/rx";
+
 
 const Navbar = () => {
   return (
@@ -15,10 +17,10 @@ const Navbar = () => {
                 Главная
               </NavLink>
               <NavLink to={APP_ROUTES.BLOG} className="nav__link">
-                Мой блог
+                Моя учеба
               </NavLink>
               <NavLink to={APP_ROUTES.ABOUT} className="nav__link">
-                Обо мне
+                Моя жизнь
               </NavLink>
             </div>
             <div className="nav__button">
