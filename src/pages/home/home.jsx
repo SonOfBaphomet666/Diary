@@ -21,10 +21,10 @@ const Home = () => {
           <div className="box">
             <div className="box__title">
               <h5>Personally Newsletter</h5>
-              <p>
+              <h4>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
                 placeat quidem dolor totam excepturi
-              </p>
+              </h4>
             </div>
             <div className="box__input">
               <input placeholder="    Email address" />

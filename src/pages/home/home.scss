@@ -164,6 +164,13 @@ footer {
 }
 
 @media screen and (max-width: $phone) {
+  input {
+    width: 336px;
+    height: 50px;
+    // padding-bottom: 12px;
+    margin-bottom: 12px;
+  }
+
   h1 {
     font-size: 28px;
   }
@@ -176,8 +183,9 @@ footer {
   }
 
   .hero {
-    width: 374px;
+    width: 100%;
     height: 231px;
+
     &__box {
       padding-top: 60px;
       padding-bottom: 40px;
@@ -192,43 +200,61 @@ footer {
     }
   }
 
-  .box {
-    width: 343px;
-    height: 244px;
-    padding: 0;
+  footer {
+    width: 100%;
 
-    &__title {
-      width: 320px;
-      height: 106px;
-    }
-
-    &__input {
-      width: 343px;
-      height: 112px;
+    .footerBox {
+      width: 100%;
       padding: 0;
+      margin: 0;
     }
 
-    &__btnInput {
+    .box {
       width: 343px;
-      height: 50px;
+      height: 324px;
+      padding-top: 40px;
+      padding-bottom: 0;
+      padding-left: 15.5px;
+      padding-right: 15.5px;
+
+      &__input {
+        display: flex;
+        flex-direction: column;
+        width: 343px;
+        height: 112px;
+        margin: 0;
+      }
+
+      &__title {
+        width: 343px;
+        height: 106px;
+        display: flex;
+        justify-content: center;
+        // padding-bottom: 26px;
+      }
+
+      &__input {
+        width: 343px;
+        height: 150px;
+      }
+
+      &__btnInput {
+        width: 343px;
+        height: 50px;
+        border-radius: 8px;
+      }
     }
 
-    &__subscribe {
-      display: flex;
-      justify-content: center;
-      width: 472px;
-      height: 50px;
+    .info {
+      // padding: 20px 0px;
       padding-top: 20px;
-    }
-  }
+      padding-bottom: 20px;
+      width: 100%;
+      height: 18px;
 
-  .info {
-    padding: 20px 0px;
-    width: 374px;
-    height: 58px;
-
-    &__title {
-      padding: 0;
+      &__title {
+        padding: 0;
+      }
     }
   }
 }

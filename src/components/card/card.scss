@@ -196,8 +196,9 @@
 
 @media screen and (max-width: $phone) {
   main {
-    padding: 40px 12px;
-    width: 374px;
+    // padding: 40px 12px;
+    // width: 374px;
+    width: 100%;
   }
 
   p {
@@ -209,7 +210,11 @@
   }
 
   h4 {
-    visibility: hidden;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #475467;
   }
 
   h2 {

@@ -226,7 +226,7 @@ const Card = () => {
                   Mollitia excepturi quo.
                 </h3>
                 <div className="card__textBox">
-                  <h4>
+                  <h4 className="footerText">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Perferendis beatae dolores fuga eius quia nobis? Tempora
                   </h4>
