@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { APP_ROUTES } from "/src/utils/constants";
+
 // import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
@@ -26,25 +27,54 @@ const Navbar = () => {
               <p className="nav__buttonTitle">Подписаться</p>
             </div>
           </div>
-          <div className="dropdown">
-            <ul className="dropdown__list">
-              <li className="dropdown__posten">
-                <NavLink to={APP_ROUTES.HOME} className="nav__link">
-                  Главная
-                </NavLink>
-              </li>
-              <li className="dropdown__posten">
-                <NavLink to={APP_ROUTES.BLOG} className="nav__link">
-                  Моя учеба
-                </NavLink>
-              </li>
-              <li className="dropdown__posten">
-                <NavLink to={APP_ROUTES.ABOUT} className="nav__link">
-                  Моя жизнь
-                </NavLink>
-              </li>
+
+          {/* This dropDown work's */}
+          <div className="menu">
+            <input
+              type="checkbox"
+              id="burger-checkbox"
+              className="menu__burger-checkbox"
+            />
+            <label htmlFor="burger-checkbox" className="menu__burger" />
+            <ul className="menu__list">
+              <NavLink to={APP_ROUTES.HOME} className="menu__item">
+                Главная
+              </NavLink>
+              <NavLink to={APP_ROUTES.BLOG} className="menu__item">
+                Моя учеба
+              </NavLink>
+              <NavLink to={APP_ROUTES.ABOUT} className="menu__item">
+                Моя жизнь
+              </NavLink>
             </ul>
           </div>
+          {/* end */}
+
+          {/* <div className="gamburger">
+            <span className="gamburger__stripe" />
+            <span className="gamburger__stripe" />
+            <span className="gamburger__stripe" />
+            <input className="gamburger__checkbox" type="checkbox" />
+            <div className="dropdown">
+              <ul className="dropdown__list">
+                <li className="dropdown__posten">
+                  <NavLink to={APP_ROUTES.HOME} className="dropdown__link">
+                    Главная
+                  </NavLink>
+                </li>
+                <li className="dropdown__posten">
+                  <NavLink to={APP_ROUTES.BLOG} className="dropdown__link">
+                    Моя учеба
+                  </NavLink>
+                </li>
+                <li className="dropdown__posten">
+                  <NavLink to={APP_ROUTES.ABOUT} className="dropdown__link">
+                    Моя жизнь
+                  </NavLink>
+                </li>
+              </ul>
+            </div> */}
+          {/* </div> */}
         </div>
       </nav>
     </header>
