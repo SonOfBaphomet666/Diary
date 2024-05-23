@@ -28,7 +28,6 @@ const Navbar = () => {
             </div>
           </div>
 
-          {/* This dropDown work's */}
           <div className="menu">
             <input
               type="checkbox"
@@ -48,33 +47,6 @@ const Navbar = () => {
               </NavLink>
             </ul>
           </div>
-          {/* end */}
-
-          {/* <div className="gamburger">
-            <span className="gamburger__stripe" />
-            <span className="gamburger__stripe" />
-            <span className="gamburger__stripe" />
-            <input className="gamburger__checkbox" type="checkbox" />
-            <div className="dropdown">
-              <ul className="dropdown__list">
-                <li className="dropdown__posten">
-                  <NavLink to={APP_ROUTES.HOME} className="dropdown__link">
-                    Главная
-                  </NavLink>
-                </li>
-                <li className="dropdown__posten">
-                  <NavLink to={APP_ROUTES.BLOG} className="dropdown__link">
-                    Моя учеба
-                  </NavLink>
-                </li>
-                <li className="dropdown__posten">
-                  <NavLink to={APP_ROUTES.ABOUT} className="dropdown__link">
-                    Моя жизнь
-                  </NavLink>
-                </li>
-              </ul>
-            </div> */}
-          {/* </div> */}
         </div>
       </nav>
     </header>
