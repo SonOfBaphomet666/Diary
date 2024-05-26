@@ -1,5 +1,8 @@
 import Card from "../../components/card/card";
 
+import Cards from "../../components/card/cards";
+
+
 const Home = () => {
   return (
     <>
@@ -14,6 +17,7 @@ const Home = () => {
         </div>
       </section>
       <main>
+        <Cards />
         <Card />
       </main>
       <footer>

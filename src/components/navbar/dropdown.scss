@@ -3,12 +3,30 @@
   width: 0;
   visibility: hidden;
 
-  &__burger-checkbox {}
+  &__burger-checkbox {
+    width: 0;
+  }
+
+  &__list {
+    width: 0;
+  }
+
+  &__item {
+    width: 0;
+    // height: 0;
+  }
+}
+
+@media screen and (max-width: $tab-port) {
+  .menu {
+    display: none;
+  }
 }
 
 @media screen and (max-width: $phone) {
   .menu {
-    width: 100%;
+    width: 40px;
+    display: block;
     visibility: visible;
     padding-top: 22px;
     padding-bottom: 23px;
@@ -18,7 +36,7 @@
       visibility: hidden;
       margin: 0;
       padding: 0;
-      width: 0px;
+      width: 40px;
     }
 
     &__burger-checkbox:checked + &__burger::before {
@@ -38,7 +56,6 @@
     }
 
     &__burger {
-      position: relative;
       z-index: 1;
       cursor: pointer;
       display: block;
@@ -83,7 +100,7 @@
       list-style-type: none;
       transform: translateY(-100%);
       transition: 0.3s;
-      width: 150px;
+      width: 140px;
     }
 
     &__item {
@@ -93,6 +110,7 @@
       font-size: 18px;
       text-align: center;
       text-decoration: none;
+      width: 125px;
 
       &:hover {
         background-color: $light-grey;
