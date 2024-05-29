@@ -1,6 +1,7 @@
 import Card from "../../components/card/card";
 
-import Cards from "../../components/card/cards";
+import Fetch from "../../components/hooks/useEffect";
+// import Cards from "../../components/card/cards";
 
 
 const Home = () => {
@@ -17,7 +18,8 @@ const Home = () => {
         </div>
       </section>
       <main>
-        <Cards />
+        <Fetch />
+        {/* <Cards /> */}
         <Card />
       </main>
       <footer>
