@@ -1,29 +1,25 @@
-function fetchData() {
-    let stat = function (response) {
-        if (response.status !== 200) {
-            return Promise.reject(new Error(response.statusText));
-        }
-        return Promise.resolve(response)
-    }
-    let json = function (response) {
-        return response.json();
-    }
 
-    fetch("https://run.mocky.io/v3/6e91b7a4-fa62-40f8-b5e6-b8d8b089033e", {
+async function fetchCard() {
+    try {
+      const response = await fetch("https://run.mocky.io/v3/41245208-e518-4794-b759-9a99c4439a98", {
         method: "post",
         body: "test=1"
-    })
-        .then(stat)
-        .then(json)
-        .then(function (data) {
-            console.log("data", data);
-        })
-        .catch(function (error) {
-            console.log("error", error);
-        });
-}
-
-export {fetchData};
+      });
+  
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+  
+      const data = await response.json();
+      console.log("data", data);
+      return data;
+    } catch (err) {
+      console.log("error", err);
+      throw err;
+    }
+  }
+  
+  export {fetchCard};
 
 
 // ASYNC FUNCTION

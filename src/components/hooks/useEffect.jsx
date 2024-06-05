@@ -1,82 +1,50 @@
 import { useState, useEffect } from "react";
-import {fetchData} from "../../api/fetch";
+import { fetchCard } from "../../api/fetch";
 
-const Fetch = () => {
+const ArticleList = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetchData()
-    
-    // let ignore = false;
-    // setData(null);
-    // fetchData
-  })
-}
+    async function getData() {
+      try {
+        const result = await fetchCard();
+        setData(result);
+      } catch (err) {
+        console.log("Error while fetching data:", err);
+      }
+    }
+    getData();
+  }, []);
 
-export default Fetch;
+  return (
+    <div>
+      <h1>Инфо</h1>
+      {data &&
+        data.map((item, index) => {
+          return (
+            <div key={index} className="card">
+              <div className="card__box">
+                <div className="card__dataBox">
+                  <h6>{item.date}</h6>
+                </div>
+                <div className="card__box2">
+                  <div className="card__titleBox">
+                    <h3>{item.title}</h3>
+                    <div className="card__textBox">
+                      <h4>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Perferendis beatae dolores fuga eius quia nobis? Tempora
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <img className="card__img" src={item.imgUrl} />
+            </div>
+          );
+        })}
+    </div>
+  );
+};
 
-
-// ASYNC FUNCTION
-// const Fetch = () => {
-//   const [data, setData] = useState([]);
-
-//   useEffect(() => {
-//      async function loadData() {
-//       const result = await fetchData();
-//       setData(result);
-//     }
-
-//     loadData().catch((error) => {
-//       console.error("An error occured while loading the data: ", error);
-//     });
-//   }, []);
-
-//   return (
-//     <div>
-//       <h1>Инфо</h1>
-//       <ul>
-//               {data.map((item, index) => { (
-//                 <li key={index}>
-//                   <p>{item.date}</p>
-//                   <p>{item.imgUrl}</p>
-//                 </li>
-//               )})}
-//             </ul>
-//     </div>
-//   );
-// };
-
-// export default Fetch;
-
-// END
-
-// ALL TOGEHTER
-// const Fetch = () => {
-//   const [serverUrl, setServerUrl] = useState([]);
-
-//   useEffect(() => {
-//     fetch("https://run.mocky.io/v3/6e91b7a4-fa62-40f8-b5e6-b8d8b089033e")
-//       .then((response) => response.json())
-//       .then((data) => setServerUrl(data))
-//       .catch((error) => {
-//         console.log("Error:", error);
-//       });
-//   }, []);
-
-//   return (
-//     <div>
-//       <h1>Инфо</h1>
-//       <ul>
-//         {serverUrl.map((item, index) => {console.log(index); (
-//           <li key={index[0]}>
-//             <p>{item.date}</p>
-//             <p>{item.imgUrl}</p>
-//           </li>
-//         )})}
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default Fetch;
-// END
+export default ArticleList;
