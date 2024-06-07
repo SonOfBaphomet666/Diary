@@ -1,6 +1,6 @@
-import Card from "../../components/card/card";
+// import Card from "../../components/card/card";
 
-import Fetch from "../../components/hooks/useEffect";
+import ArticleList from "../../components/hooks/articleList";
 // import Cards from "../../components/card/cards";
 
 
@@ -18,9 +18,8 @@ const Home = () => {
         </div>
       </section>
       <main>
-        <Fetch />
-        {/* <Cards /> */}
-        <Card />
+        <ArticleList />
+        {/* <Card /> */}
       </main>
       <footer>
         <div className="footerBox">

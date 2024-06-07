@@ -6,7 +6,7 @@
 
 .cards {
   padding-top: 80px;
-  height: 886px;
+  // height: 886px; - This is for 3 cards
 
   &__dailyBox {
     display: flex;
@@ -70,7 +70,7 @@
   }
 
   &__dataBox {
-    width: 110px;
+    width: 130px;
     height: 15px;
   }
 

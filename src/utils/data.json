@@ -1,20 +1,65 @@
 [
     {
         "id": 1,
-        "date": "MAY 10, 2024",
-        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi quo.",
-        "imgUrl": "http://127.0.0.1:5173/src/assets/img/1.png"
+        "date": "May 10, 2024",
+        "title": "Ictum sit amet justo donec enim diam vulputate ut pharetra",
+        "text": "Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id.",
+        "img": "https://loremflickr.com/320/240/kitty"
     },
     {
         "id": 2,
-        "date": "April 10, 2025",
-        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi quo.",
-        "imgUrl": "http://127.0.0.1:5173/src/assets/img/2.png"
+        "date": "April 10, 2024",
+        "title": "Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi quo.Lorem ipsum dolor sit amet consectetur.",
+        "img": "https://loremflickr.com/320/240/dog"
     },
     {
         "id": 3,
-        "date": "December 10, 2023",
+        "date": "December 10, 2024",
         "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi quo.",
-        "imgUrl": "https://picsum.photos/seed/picsum/450/300"
+        "text": "Tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis.",
+        "img": "https://loremflickr.com/320/240/paris"
+    },
+    {
+        "id": 4,
+        "date": "June 12, 2024",
+        "title": "Mauris vitae ultricies leo integer malesuada nunc vel risus.",
+        "text": "Eu non diam phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim tortor at auctor urna nunc id cursus.",
+        "img": "https://loremflickr.com/320/240/girl"
+    },
+    {
+        "id": 5,
+        "date": "January 15, 2024",
+        "title": "Auctor urna nunc id cursus metus aliquam eleifend mi in nulla.",
+        "text": "Egestas maecenas pharetra convallis posuere morbi leo urna molestie at elementum eu facilisis sed odio morbi quis commodo odio.",
+        "img": "https://loremflickr.com/320/240/brazil"
+    },
+    {
+        "id": 6,
+        "date": "February 27, 2024",
+        "title": "Lorem sed risus ultricies tristique nulla aliquet.",
+        "text": "In ornare quam viverra orci sagittis eu volutpat odio facilisis mauris sit amet massa vitae tortor.",
+        "img": "https://loremflickr.com/320/240/paris"
+    },
+    {
+        "id": 7,
+        "date": "March 8, 2024",
+        "title": "Senectus et netus et malesuada fames.",
+        "text": "Urna et pharetra pharetra massa massa ultricies mi quis hendrerit dolor magna eget est lorem ipsum dolor sit.",
+        "img": "https://loremflickr.com/320/240/rom"
+    },
+    {
+        "id": 8,
+        "date": "April 7, 2024",
+        "title": "Morbi leo urna molestie at elementum eu facilisis sed odio.",
+        "text": "Aat lectus urna duis convallis convallis tellus id interdum velit laoreet id donec ultrices tincidunt arcu non sodales.",
+        "img": "https://loremflickr.com/320/240/fructs"
+    },
+    {
+        "id": 9,
+        "date": "May 9, 2024",
+        "title": "Iaculis at erat pellentesque adipiscing commodo elit at imperdiet dui accumsan sit amet.",
+        "text": "Let leo duis ut diam quam nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus risus at.",
+        "img": "https://loremflickr.com/320/240/africa"
     }
 ]
