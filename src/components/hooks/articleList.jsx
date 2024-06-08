@@ -21,7 +21,9 @@ const ArticleList = () => {
     <div className="cards-box">
       <section className="cards">
         <div className="cards__dailyBox">
-          <h2>Ежедневная рубрика</h2>
+          <button className="cards__view">???</button>
+          <button className="cards__view">???</button>
+          <button className="cards__view">???</button>
           <button className="cards__view">
             <div className="cards__viewBox">
               <BsEyeFill className="cards__eye" />
@@ -50,6 +52,9 @@ const ArticleList = () => {
               </div>
             );
           })}
+        <div className="cards-box__moreBox">
+          <button className="cards-box__more">Load more</button>
+        </div>
       </section>
     </div>
   );
