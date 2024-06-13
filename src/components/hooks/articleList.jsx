@@ -1,6 +1,9 @@
 import { useState, useEffect } from "react";
 import { fetchCard } from "../../api/fetch";
+
 import { BsEyeFill } from "react-icons/bs";
+import { GiBookshelf } from "react-icons/gi";
+import { BsCalendarCheck } from "react-icons/bs";
 
 const ArticleList = () => {
   const [data, setData] = useState(null);
@@ -21,13 +24,15 @@ const ArticleList = () => {
     <div className="cards-box">
       <section className="cards">
         <div className="cards__dailyBox">
-          <button className="cards__view">???</button>
-          <button className="cards__view">???</button>
-          <button className="cards__view">???</button>
+          <button className="cards__view">
+            <GiBookshelf />
+          </button>
+          <button className="cards__view">
+            <BsCalendarCheck />
+          </button>
           <button className="cards__view">
             <div className="cards__viewBox">
               <BsEyeFill className="cards__eye" />
-              все
             </div>
           </button>
         </div>
@@ -53,7 +58,7 @@ const ArticleList = () => {
             );
           })}
         <div className="cards-box__moreBox">
-          <button className="cards-box__more">Load more</button>
+          <button className="cards-box__more">Посмотреть всё</button>
         </div>
       </section>
     </div>
