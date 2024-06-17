@@ -1,8 +1,5 @@
-// import Card from "../../components/card/card";
-
 import ArticleList from "../../components/hooks/articleList";
-// import Cards from "../../components/card/cards";
-
+// import Pagination from "../../components/Pagination"
 
 const Home = () => {
   return (
@@ -18,8 +15,8 @@ const Home = () => {
         </div>
       </section>
       <main>
+        {/* <Pagination/> */}
         <ArticleList />
-        {/* <Card /> */}
       </main>
       <footer>
         <div className="footerBox">
