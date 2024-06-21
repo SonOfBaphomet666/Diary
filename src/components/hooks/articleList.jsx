@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { fetchCard } from "../../api/fetch";
-import  Pagination  from "../Pagination";
 
 import { BsEyeFill } from "react-icons/bs";
 import { GiBookshelf } from "react-icons/gi";
@@ -23,7 +22,6 @@ const ArticleList = () => {
 
   return (
        <div className="cards-box">
-        <Pagination />
       <section className="cards">
         <div className="cards__dailyBox">
           <button className="cards__view">

@@ -1,5 +1,5 @@
-import ArticleList from "../../components/hooks/articleList";
-// import Pagination from "../../components/Pagination"
+// import ArticleList from "../../components/hooks/articleList";
+import Pagination from "../../components/Pagination"
 
 const Home = () => {
   return (
@@ -15,8 +15,8 @@ const Home = () => {
         </div>
       </section>
       <main>
-        {/* <Pagination/> */}
-        <ArticleList />
+        <Pagination/>
+        {/* <ArticleList /> */}
       </main>
       <footer>
         <div className="footerBox">

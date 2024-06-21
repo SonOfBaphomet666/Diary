@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "date": "May 10, 2024",
+        "title": "Ictum sit amet justo donec enim diam vulputate ut pharetra",
+        "text": "Aliquam nulla facilisi cras fermentum odio eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus quam id.",
+        "img": "https://loremflickr.com/320/240/kitty"
+    },
+    {
+        "id": 2,
+        "date": "April 10, 2024",
+        "title": "Ultrices gravida dictum fusce ut placerat orci nulla pellentesque dignissim",
+        "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi quo.Lorem ipsum dolor sit amet consectetur.",
+        "img": "https://loremflickr.com/320/240/dog"
+    },
+    {
+        "id": 3,
+        "date": "December 10, 2024",
+        "title": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia excepturi quo.",
+        "text": "Tortor condimentum lacinia quis vel eros donec ac odio tempor orci dapibus ultrices in iaculis.",
+        "img": "https://loremflickr.com/320/240/paris"
+    }
+]
